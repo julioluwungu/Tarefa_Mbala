@@ -1,2 +1,4 @@
 # Tarefa_Mbala
-Exercícios JavaScript Avançados
+Nome: Mbala Kunsunga
+Número: 18
+Turma: II12B
