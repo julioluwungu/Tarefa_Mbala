@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Exercício 9</title>
+    <link rel="stylesheet" href="../style9.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadeia de Processamento</h1>
+        <div class="exercise">
+            <div class="input-section">
+                <label for="input">Digite o vetor e operações:</label>
+                <textarea id="input" rows="5">{
+    "v": [1, 2, 3, 4, 5],
+    "ops": [
+    {"tp": "mapa", "fn": "x => x * 2"},
+    {"tp": "filtro", "fn": "x => x > 5"}
+    ]
+}</textarea>
+            </div>
+            <button onclick="exec()">Exec</button>
+            <div class="output-section">
+                <label>Resultado:</label>
+                <pre id="output"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="ex9_proc.js"></script>
+    <script src="ex9_ui.js"></script>
+</body>
+</html>

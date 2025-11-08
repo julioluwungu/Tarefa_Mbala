@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 5</title>
+    <link rel="stylesheet" href="../style5.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerar Árvore</h1>
+        <div class="exercise">
+            <div class="input-section">
+                <label for="input">Digite a lista de caminhos:</label>
+                <textarea id="input" rows="5">[
+    "raiz/a/arq1",
+    "raiz/a/arq2",
+    "raiz/b/arq3",
+    "raiz/b/b1/arq4"
+]</textarea>
+            </div>
+            <button onclick="exec()">Executar</button>
+            <div class="output-section">
+                <label>Resultado:</label>
+                <pre id="output"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="generateTree.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 6</title>
+    <link rel="stylesheet" href="../style6.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora</h1>
+        <div class="exercise">
+            <div class="input-section">
+                <label for="input">Digite a expressão matemática:</label>
+                <textarea id="input" rows="5">"2 + 3 * 4"</textarea>
+            </div>
+            <button onclick="exec()">Executar</button>
+            <div class="output-section">
+                <label>Resultado:</label>
+                <pre id="output"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>

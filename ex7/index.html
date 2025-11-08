@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 7</title>
+    <link rel="stylesheet" href="../style7.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Serialização de Objetos</h1>
+        <div class="exercise">
+            <div class="input-section">
+                <label for="input">Digite o objeto circular:</label>
+                <textarea id="input" rows="5">{"a": {"b": {"c": {}}}}</textarea>
+            </div>
+            <button onclick="exec()">Executar</button>
+            <div class="output-section">
+                <label>Resultado:</label>
+                <pre id="output"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="ex7_serialize.js"></script>
+    <script src="ex7_ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercício 4</title>
+    <link rel="stylesheet" href="../style4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Busca de Caminho</h1>
+        <div class="exercise">
+            <div class="input-section">
+                <label for="input">Digite o objeto e o caminho de busca:</label>
+                <textarea id="input" rows="5">{"o": {"a": {"b": {"c": 3}}}, "p": "a.b.c"}</textarea>
+            </div>
+            <button onclick="exec()">Executar</button>
+            <div class="output-section">
+                <label>Resultado:</label>
+                <pre id="output"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="find.js"></script>
+    <script src="ui.js"></script>
+</body>
+</html>
